@@ -6,7 +6,7 @@ The output files can be used in [Hexo](https://hexo.io/) directly, so this utils
 migrating blog from Ghost to Hexo.
 
 ## Usage:
-
+```
 usage: exportFromMySQL.py [-options] [values]
    or: exportFromMySQL.py [--options=values]
   options:
@@ -15,6 +15,7 @@ usage: exportFromMySQL.py [-options] [values]
     -d, --database: MySQL database name, default is blogdb
     -o, --output: output directory, default is posts
     -h, --help: print help
+```
 
 example:
 
